@@ -213,7 +213,6 @@ plugins {
     }
 }
 
-
 //  Send a request for a simplified ui (without arrow fonts) to plugins
 simplified_ui false
 
@@ -241,7 +240,7 @@ scrollback_lines_to_serialize 10000
 theme "tokyo-night"
 
 // The name of the default layout to load on startup
-default_layout "compact"
+default_layout "custom"
 
 scroll_buffer_size 10000
 
@@ -284,10 +283,6 @@ scroll_buffer_size 10000
 // The folder in which Zellij will look for layouts
 //
 // layout_dir "/path/to/my/layout_dir"
-
-// The folder in which Zellij will look for themes
-//
-// theme_dir "/path/to/my/theme_dir"
 
 // Enable or disable the rendering of styled and colored underlines (undercurl).
 // May need to be disabled for certain unsupported terminals
